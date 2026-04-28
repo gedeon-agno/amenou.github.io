@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Introduction – Portfolio AGNO_GEDEON</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="nav-top">ESIG GLOBAL SUCCESS</div>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="introduction.html" class="active">Introduction</a></li>
+    <li><a href="competences.html">Compétences</a></li>
+    <li><a href="sae.html">SAE</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</header>
+
+<main class="page-content">
+  <h1 class="page-title">Introduction</h1>
+
+  <p>Le présent portfolio constitue un bilan réflexif de mon parcours académique et professionnel au cours du semestre 5 de ma formation en Sciences Informatiques à l'École Supérieure d'Informatique et de Gestion (ESIG). Il retrace les compétences développées à travers les différentes unités d'enseignement (UE) et les Situations d'Apprentissage et d'Évaluation (SAE) réalisées tout au long de ce semestre.</p>
+
+  <p>Ce semestre a été particulièrement riche en apprentissages théoriques et pratiques. Les activités ont couvert un large spectre de compétences informatiques : la supervision avancée des systèmes et réseaux, le pilotage de projet informatique et la conception et réalisation d'une solution technique. Ces trois SAE m'ont permis de mobiliser et d'approfondir mes connaissances dans des contextes proches du monde professionnel réel.</p>
+
+  <p>Ce portfolio se structure en deux grandes parties : d'abord le bilan des Unités d'Enseignement du semestre 5 à travers les quatre blocs de compétences, puis le bilan des SAE réalisées, en précisant pour chacune les savoirs acquis et les compétences développées. Une analyse réflexive accompagne chaque section afin de mettre en évidence le lien entre ces apprentissages et mon projet personnel et professionnel.</p>
+</main>
+
+<footer>
+  &copy; ESIG GLOBAL SUCCESS. Rights reserved
+</footer>
+
+<script>
+  const ham = document.getElementById('hamburger');
+  const nav = document.getElementById('navLinks');
+  ham.addEventListener('click', () => { ham.classList.toggle('open'); nav.classList.toggle('open'); });
+</script>
+</body>
+</html>

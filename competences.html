@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Compétences – Portfolio AGNO_GEDEON</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="nav-top">ESIG GLOBAL SUCCESS</div>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="introduction.html">Introduction</a></li>
+    <li><a href="competences.html" class="active">Compétences</a></li>
+    <li><a href="sae.html">SAE</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</header>
+
+<main class="page-content">
+  <h1 class="page-title">Compétences</h1>
+
+  <div class="intro-box">
+    <p>Au cours du Semestre 5, j'ai développé et renforcé des compétences dans quatre grands domaines fondamentaux de l'informatique : la programmation, les réseaux informatiques, la gestion de bases de données et l'administration systèmes. Ces différents axes m'ont permis d'acquérir des connaissances techniques solides ainsi qu'une meilleure compréhension des environnements informatiques professionnels.</p>
+    <p style="margin-bottom:0;">À travers les projets réalisés, les travaux pratiques et les différentes situations d'apprentissage, j'ai pu mettre en application ces compétences de manière concrète, tout en développant ma capacité d'analyse, de résolution de problèmes et de travail en équipe.</p>
+  </div>
+
+  <!-- PARTIE 1 -->
+  <div class="bloc-titre">Partie 1 : Bilan des UE du Semestre 5</div>
+
+  <!-- 1.1 Programmation -->
+  <div class="sous-titre">1.1 Bloc de Compétence 1 : Programmation</div>
+
+  <p>Au cours du semestre 5, les enseignements en programmation m'ont permis de renforcer mes compétences en développement logiciel. J'ai approfondi la maîtrise de langages comme Python et Java, et j'ai été initié aux bonnes pratiques de développement orienté objet (POO).</p>
+
+  <p>Les travaux pratiques et les projets liés au SAE « Concevoir et réaliser une solution technique » ont largement contribué à consolider ces acquis. J'ai notamment appris à structurer mon code de manière modulaire, à utiliser des frameworks et à documenter mes développements de façon professionnelle.</p>
+
+  <p>Ces compétences en programmation sont fondamentales pour mon projet professionnel : je souhaite évoluer en tant que développeur ou ingénieur logiciel, et la maîtrise des langages de programmation constitue le socle indispensable à cette ambition. Elles me permettent déjà de concevoir des applications fonctionnelles répondant à des besoins concrets.</p>
+
+  <div class="divider"></div>
+
+  <!-- 1.2 Réseaux -->
+  <div class="sous-titre">1.2 Bloc de Compétence 2 : Réseaux Informatiques</div>
+
+  <p>Les cours de réseaux informatiques ce semestre m'ont offert une vision plus approfondie des architectures réseau, des protocoles de communication et de la sécurité des infrastructures. J'ai étudié les concepts liés aux VLANs, au routage dynamique (OSPF, EIGRP), ainsi qu'aux mécanismes de supervision.</p>
+
+  <p>Le SAE « Supervision avancée » a été particulièrement décisif dans ce bloc : il m'a permis de mettre en pratique des outils de monitoring comme Nagios, Zabbix ou PRTG pour surveiller des infrastructures réseau en temps réel, détecter des pannes et anticiper les incidents.</p>
+
+  <p>La maîtrise des réseaux est un atout stratégique dans mon projet professionnel, notamment si je vise un poste d'administrateur réseau ou d'ingénieur systèmes et réseaux. Ces compétences me permettront de garantir la disponibilité et la performance des infrastructures informatiques dans les organisations.</p>
+
+  <div class="divider"></div>
+
+  <!-- 1.3 Bases de données -->
+  <div class="sous-titre">1.3 Bloc de Compétence 3 : Gestion de Bases de Données</div>
+
+  <p>Ce semestre, j'ai approfondi mes connaissances en conception et administration de bases de données relationnelles (SQL, MySQL, PostgreSQL) et non-relationnelles (MongoDB). J'ai travaillé sur la modélisation (MCD, MLD), l'optimisation des requêtes et les transactions.</p>
+
+  <p>Le SAE « Concevoir et réaliser une solution technique » a intégré une composante base de données importante : j'ai conçu et implémenté une base de données pour soutenir l'application développée, en veillant à la normalisation et aux performances.</p>
+
+  <p>Une bonne maîtrise des bases de données est essentielle dans tous les métiers de l'informatique. Pour mon projet professionnel, cette compétence me permettra de gérer efficacement les données des applications que je serai amené à développer ou à administrer.</p>
+
+  <div class="divider"></div>
+
+  <!-- 1.4 Administration -->
+  <div class="sous-titre">1.4 Bloc de Compétence 4 : Administration Systèmes</div>
+
+  <p>Les enseignements en administration systèmes m'ont permis de maîtriser la gestion des systèmes d'exploitation Linux et Windows Server, la virtualisation (VMware, VirtualBox), la gestion des utilisateurs et des droits, ainsi que les mécanismes de sauvegarde et de restauration.</p>
+
+  <p>Le SAE « Supervision avancée » et le SAE « Piloter un projet informatique » m'ont amené à mobiliser ces compétences dans des contextes concrets : déploiement d'environnements virtualisés, configuration de serveurs, mise en place de politiques de sécurité.</p>
+
+  <p>L'administration systèmes est au cœur de mon projet professionnel. Je souhaite obtenir des certifications comme LPIC ou Microsoft MCSA pour renforcer mon profil et accéder à des postes d'administrateur systèmes ou d'ingénieur infrastructure.</p>
+
+</main>
+
+<footer>
+  &copy; ESIG GLOBAL SUCCESS. Rights reserved
+</footer>
+
+<script>
+  const ham = document.getElementById('hamburger');
+  const nav = document.getElementById('navLinks');
+  ham.addEventListener('click', () => { ham.classList.toggle('open'); nav.classList.toggle('open'); });
+</script>
+</body>
+</html>
